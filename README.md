@@ -91,6 +91,37 @@ coach me 我的定價策略
 done (to end and get summary)
 ```
 
+## Related Skills
+
+- **[Learn-With-Coach](https://github.com/arbiger/learn-with-coach)** — AI 學習教練，用 3 步驟執行迴圈學會任何技能
+- **[KB-Collector](https://github.com/arbiger/kb-collector)** — Knowledge base collection with AI summarization
+- **[Valuation-Calculator](https://github.com/arbiger/valuation-calculator)** — Fast stock valuation tools
+
+## 與 Learn-With-Coach 的整合 Integration with Learn-With-Coach
+
+```
+coaching-me (discovery + questioning)
+        ↓ (triggers when interest found)
+「這個很有趣，要不要多了解？」
+        ↓ (yes)
+learn [topic] (execution + structure)
+        ↓ (if stuck, use coaching questions)
+coaching-me (deeper exploration)
+        ↓ (complete phase)
+Phase summary
+        ↓ (continue or close)
+```
+
+**使用範例 Example:**
+```
+User: [在 coaching-me 對話中]
+     「我最近對機器學習很有興趣」
+     
+AI: 很有趣！你對 ML 的興趣讓我想到...
+    要不要建立一個學習計劃來深入了解？
+    「learn machine learning」
+```
+
 ## License
 
 MIT — use freely, contribute improvements
